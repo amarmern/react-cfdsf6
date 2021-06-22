@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 import ChildComponent from './ChildComponent';
 
-export default function App(props) {
+export default function App() {
   const [value, setValue] = useState('');
 
   const onchange = data => {
